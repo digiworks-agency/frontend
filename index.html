@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | DIGIWORKS</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div>
+        <h1>digiworks</h1>
+        <p>Communicate. Collaborate. Create</p>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-text">
+        <div>
+          <h2>Communicate.</h2>
+          <h2 class="hero-text-second-line">Collaborate. Create.</h2>
+        </div>
+        <p>Digital strategy meets real results: Smart development, SEO, automation & marketing - built for growth</p>
+      </div>
+      <div class="hero-image-container">
+        <div class="bend-line">
+          <div class="dot"></div>
+        </div>
+        <img src="assets/images/devices.png" class="hero-devices" alt="devices">
+        <img src="assets/image_sequences/code_sequence.gif" class="hero-code-sequence" alt="code sequence">
+        <img src="assets/image_sequences/result_sequence.gif" class="hero-result-sequence" alt="result sequence">
+      </div>
+    </section>
+
+    <section id="skilled-people">
+      <div>
+        <h2>Skilled people.</h2>
+        <h2>Exceptional outcomes.</h2>
+        <div class="skilled-people-icons">
+          <div class="skilled-people-icon">
+            <img src="assets/icons/speed_icon.svg" alt="speed icon" class="speed-icon">
+            <p>Speed & Security</p>
+          </div>
+          <div class="skilled-people-icon">
+            <img src="assets/icons/flexibility_icon.svg" alt="flexibility icon" class="flexibility-icon">
+            <p>Flexibility & Scalability</p>
+          </div>
+          <div class="skilled-people-icon">
+            <img src="assets/icons/collaboration_icon.svg" alt="collaboration icon" class="collaboration-icon">
+            <p>Efficient Workflows</p>
+          </div>
+        </div>
+      </div>
+      <p class="skilled-people-text">
+        At DIGIWORKS, we believe in the power of the right people to transform your digital products. Whether you're a
+        small business owner or a big tech company, our team of friendly experts is here to help you reach your desired
+        heights.
+      </p>
+    </section>
+
+    <section id="expertise">
+      <div class="expertise-heading">
+        <h2>Domains of Expertise</h2>
+      </div>
+      <div class="expertise-container">
+        <div class="expertise-item">
+          <div class="software-image"></div>
+          <h3>Software</h3>
+          <p>Custom, easy-to-use software built to solve your real business challenges.</p>
+        </div>
+
+        <div class="expertise-item">
+          <div class="big-data-image"></div>
+          <h3>Automation</h3>
+          <p>Automate workflows and save time where it matters most.</p>
+        </div>
+
+        <div class="expertise-item">
+          <div class="recruitment-image"></div>
+          <h3>Recruitment</h3>
+          <p>We help you connect with candidates who actually fit.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-heading">
+        <h2>Reach out</h2>
+        <p>We’ll get back</p>
+      </div>
+      <form class="contact-form" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true"
+        action="/thank-you.html">
+        <input type="hidden" name="form-name" value="contact">
+        <div class="field">
+          <label for="first-name">Name <span class="required">*</span></label>
+          <input type="text" id="first-name" name="first-name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email <span class="required">*</span></label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="field">
+          <label for="message">Message <span class="required">*</span></label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div data-netlify-recaptcha="true"></div>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>DIGIWORKS © 2025</p>
+  </footer>
+</body>
+
+</html>

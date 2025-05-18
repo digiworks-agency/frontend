@@ -15,6 +15,23 @@
   }
 }
 
+@font-face {
+  font-family: 'Avenir';
+  src: url('/assets/fonts/Avenir-medium.otf') format('opentype');
+  font-weight: 500;
+  /* or use 'normal' */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('/assets/fonts/Avenir-heavy.otf') format('opentype');
+  font-weight: 600;
+  /* 'bold' */
+  font-style: normal;
+}
+
+
 /* Base styles for all devices */
 * {
   font-family: 'Avenir', sans-serif;
